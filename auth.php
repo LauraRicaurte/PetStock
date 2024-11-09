@@ -12,7 +12,7 @@ if(empty($errors)){
      $session->login($user_id);
     //Update Sign in time
      updateLastLogIn($user_id);
-     $session->msg("s", "Bienvenido a PetStock.");
+     $session->msg("s", "Bienvenido a PetStock");
      redirect('home.php',false);
 
   } else {
